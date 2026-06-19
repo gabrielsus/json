@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend json",
+  "homepage": "https://github.com/gabrielsus/json#readme",
+  "bugs": {
+    "url": "https://github.com/gabrielsus/json/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielsus/json.git"
+  },
+  "license": "ISC",
+  "author": "GJS",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
