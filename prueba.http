@@ -1,0 +1,7 @@
+### Esta es una prueba de POST
+POST http://localhost:3000/tareas HTTP/1.1
+content-type: application/json
+
+{
+    "titulo": "Mi primera tarea",
+}
