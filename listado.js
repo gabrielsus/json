@@ -1,8 +1,10 @@
 require("dotenv").config();
 const  { Pool } = require("pg");
 const pool = require('./conn.js');
+const cors = require('cors');
 express = require('express');
 const app= new express();
+app.use(cors());
 app.use(express.json());
 app.get("/listado", async (req, res) => {
     try {
